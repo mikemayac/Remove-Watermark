@@ -464,11 +464,6 @@ def main():
     deep_mode = st.sidebar.checkbox("Modo profundo", value=False,
                                     help="Aplica técnicas más intensivas para marcas de agua difíciles")
 
-    # Opciones avanzadas (colapsables)
-    with st.sidebar.expander("Opciones avanzadas"):
-        # Aquí podrían agregarse ajustes específicos como umbrales, etc.
-        st.warning("Las opciones avanzadas afectarán el rendimiento del procesamiento.")
-
     # Subir múltiples imágenes
     st.sidebar.subheader("Imágenes")
     uploaded_files = st.sidebar.file_uploader("Sube una o varias imágenes",
