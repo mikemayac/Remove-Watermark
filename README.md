@@ -1,4 +1,7 @@
-# Aplicación para Eliminar Marcas de Agua en Imágenes con Streamlit
+# Aplicación para Eliminar Marcas de Agua en Imágenes
+
+### Joel Miguel Maya Castrejón │ mike.maya@ciencias.unam.mx │ 417112602
+
 
 Este proyecto consiste en una aplicación web interactiva creada con **Python** y **Streamlit** que permite eliminar marcas de agua de imágenes utilizando técnicas avanzadas de procesamiento de imágenes.
 
@@ -33,7 +36,7 @@ Todas las dependencias están listadas en el archivo **requirements.txt**.
 
 ## Instalación
 
-1. **Clona** o **descarga** este repositorio en tu máquina local.
+1. **Clona** [este repositorio](https://github.com/mikemayac/Remove-Watermark) en tu máquina local.
 2. Crea un **entorno virtual** (recomendado):
    ```bash
    python -m venv venv
@@ -92,6 +95,8 @@ La aplicación está optimizada para detectar y eliminar:
 ├── remove_watermark.py    # Código principal de la aplicación
 ├── README.md              # Archivo de documentación
 ├── requirements.txt       # Dependencias del proyecto
+│── .streamlit/            # Capeta de configuración 
+│    └── config.toml       # Archivo usado para configuración del peso de las imágenes
 └── venv/                  # Entorno virtual
 ```
 
@@ -118,7 +123,7 @@ La aplicación implementa varios algoritmos de procesamiento de imágenes:
 
 Si deseas contribuir:
 
-1. Haz un **fork** de este repositorio.
+1. Haz un **fork** de [este repositorio](https://github.com/mikemayac/Remove-Watermark).
 2. Crea una **rama** con tu nueva funcionalidad: `git checkout -b nueva-funcionalidad`.
 3. Realiza tus cambios y haz **commit**: `git commit -m 'Agrega nueva funcionalidad'`.
 4. Haz un **push** a tu repositorio: `git push origin nueva-funcionalidad`.
